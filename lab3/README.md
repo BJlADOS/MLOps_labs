@@ -32,7 +32,7 @@ API доступно по адресу: `http://localhost:8000/docs`
 ```bash
 docker-compose up -d
 ```
-API доступно по адресу: http://localhost:8000/docs`
+API доступно по адресу: `http://localhost:8000/docs`
 
 
 
