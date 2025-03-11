@@ -5,7 +5,7 @@
 Веб-сервис на FastAPI для предсказания класса цветка Iris с использованием модели машинного обучения (RandomForestClassifier из scikit-learn).
 
 ## Структура проекта
-
+```
 lab3/
 │── app/
 │   │── model.py         # Код модели машинного обучения
@@ -14,7 +14,7 @@ lab3/
 │── Dockerfile           # Инструкция для сборки Docker-образа
 │── docker-compose.yml   # Конфигурация docker-compose
 │── .dockerignore        # Исключения для Docker-контейнера
-
+```
 ## Запуск через Docker
 Соберать образ:
 ```bash
