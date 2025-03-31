@@ -1,0 +1,15 @@
+stages:
+  process_v1:
+    cmd: python dataset_v1.py
+    deps: [dataset_v1.py]
+    outs: [titanic.csv]
+
+  process_v2:
+    cmd: python dataset_v2.py
+    deps: [dataset_v2.py, titanic.csv]
+    outs: [titanic.csv]
+
+  process_v3:
+    cmd: python dataset_v3.py
+    deps: [dataset_v3.py, titanic.csv]
+    outs: [titanic.csv]
